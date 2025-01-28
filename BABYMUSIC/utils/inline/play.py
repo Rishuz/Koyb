@@ -43,7 +43,7 @@ def stream_markup(_, chat_id):
      [
                 InlineKeyboardButton(
                     text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                    url=f"https://t.me/{bot.me.username}?startgroup=true",
+                    url=f"https://t.me/{app.username}?startgroup=true",
                 )
             ],
             [
