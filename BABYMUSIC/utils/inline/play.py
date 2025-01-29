@@ -40,17 +40,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
 def stream_markup(_, chat_id):
     buttons = [
-     [
-                InlineKeyboardButton(
-                    text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                    url=f"https://t.me/{app.username}?startgroup=true",
-                )
-            ],
-            [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
-            ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+            [InlineKeyboardButton(text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",url=f"https://t.me/ur_music_robot?startgroup=true")],
+            [InlineKeyboardButton(text="˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
+             InlineKeyboardButton(text="˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")],
+            [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
